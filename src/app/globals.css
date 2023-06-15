@@ -23,5 +23,31 @@ body {
       transparent,
       rgb(var(--background-end-rgb))
     )
+    
     rgb(var(--background-start-rgb));
+    
+}
+.box1 {
+  font-family: 'Helvetica', monospace;
+  font-size: 20px;
+  margin: auto;
+  width: 20%;
+  border: 2px solid red;
+  padding: 10px;
+}
+.box2 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  margin: auto;
+  width: 100%;
+  border: 2px solid green;
+  padding: 10px;
+}
+.box3 {
+  font-family: Arial, monospace;
+  font-size: 20px;
+  margin: auto;
+  width: 20%;
+  border: 2px solid blue;
+  padding: 10px;
 }
