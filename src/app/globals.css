@@ -51,3 +51,11 @@ body {
   border: 2px solid blue;
   padding: 10px;
 }
+.box3 {
+  font-family: Arial, monospace;
+  font-size: 20px;
+  margin: auto;
+  width: 100%;
+  border: 2px solid yellow;
+  padding: 10px;
+}
