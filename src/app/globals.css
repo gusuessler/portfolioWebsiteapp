@@ -31,7 +31,7 @@ body {
   font-family: 'Helvetica', monospace;
   font-size: 20px;
   margin: auto;
-  width: 20%;
+  width: 100%;
   border: 2px solid red;
   padding: 10px;
 }
@@ -47,7 +47,7 @@ body {
   font-family: Arial, monospace;
   font-size: 20px;
   margin: auto;
-  width: 20%;
+  width: 100%;
   border: 2px solid blue;
   padding: 10px;
 }
