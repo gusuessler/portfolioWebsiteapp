@@ -10,52 +10,32 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 0, 0, 0;
+    /* --background-start-rgb: 0, 0, 0; */
+    --background-end-rgb: 255, 255, 255;
   }
 }
 
 body {
+  font-family: "Roboto Mono", monospace;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
+  background:rgb(var(--background-end-rgb))
     
-    rgb(var(--background-start-rgb));
+    /* rgb(var(--background-start-rgb)) */
     
-}
-.box1 {
-  font-family: 'Helvetica', monospace;
-  font-size: 20px;
-  margin: auto;
-  width: 100%;
-  border: 2px solid red;
-  padding: 10px;
 }
 .box2 {
   font-family: "Roboto Mono", monospace;
   font-size: 20px;
   margin: auto;
   width: 100%;
-  border: 2px solid green;
-  padding: 10px;
-}
-.box3 {
-  font-family: Arial, monospace;
-  font-size: 20px;
-  margin: auto;
-  width: 100%;
   border: 2px solid blue;
   padding: 10px;
 }
-.box4 {
-  font-family: Arial, monospace;
+.Head {
+  text-align: center;
+}
+.Roboto-font {
+  font-family: "Roboto Mono", monospace;
   font-size: 20px;
-  margin: auto;
-  width: 100%;
-  border: 2px solid yellow;
-  padding: 10px;
 }
