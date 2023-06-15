@@ -8,7 +8,7 @@ export default function Home() {
       The new font birthed from this redesign is Helvetica. And what do you know? The font took the industry by storm. It struck the perfect balance between elegance and functionality, and throughout the 1960s and 1970s, it appeared on numerous advertising posters and billboards across Europe and the USA.
       </div>
       <div className='box2'>
-      Times new Roman
+      The new font birthed from this redesign is Helvetica. And what do you know? The font took the industry by storm. It struck the perfect balance between elegance and functionality, and throughout the 1960s and 1970s, it appeared on numerous advertising posters and billboards across Europe and the USA.
       </div>
       <div className='box3'>
       The new font birthed from this redesign is Helvetica. And what do you know? The font took the industry by storm. It struck the perfect balance between elegance and functionality, and throughout the 1960s and 1970s, it appeared on numerous advertising posters and billboards across Europe and the USA.
