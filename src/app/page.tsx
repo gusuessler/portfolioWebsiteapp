@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import React from "react";
-
+import { sql } from "@vercel/postgres";
+// pages/index.tsx
+import prisma from '../lib/prisma.ts';
 
 function Home() {
   return (
@@ -23,16 +25,8 @@ function Home() {
   
       <h2 className='Head'>Uessler.com Index Page</h2>
       <div className='box2'>
-        The new font birthed from this redesign is Helvetica. And what do you know? The font took the industry by storm. It struck the perfect balance between elegance and functionality, and throughout the 1960s and 1970s, it appeared on numerous advertising posters and billboards across Europe and the USA.
-        ed from this redesign is Helvetica. And what do you know? The font took the industry by storm. It struck the perfect balance between elegance and functionality, and throughout the 1960s and 1970s, it appeared on numerous advertising posters and billboards across Europe and the USA.
-        ed from this redesign is Helvetica. And what do you know? The font took the industry by storm. It struck the perfect balance between elegance and functionality, and throughout the 1960s and 1970s, it appeared on numerous advertising posters and billboards across Europe and the USA.
-        ed from this redesign is Helvetica. And what do you know? The font took the industry by storm. It struck the perfect balance between elegance and functionality, and throughout the 1960s and 1970s, it appeared on numerous advertising posters and billboards across Europe and the USA.
-        ed from this redesign is Helvetica. And what do you know? The font took the industry by storm. It struck the perfect balance between elegance and functionality, and throughout the 1960s and 1970s, it appeared on numerous advertising posters and billboards across Europe and the USA.
-        ed from this redesign is Helvetica. And what do you know? The font took the industry by storm. It struck the perfect balance between elegance and functionality, and throughout the 1960s and 1970s, it appeared on numerous advertising posters and billboards across Europe and the USA.
-        ed from this redesign is Helvetica. And what do you know? The font took the industry by storm. It struck the perfect balance between elegance and functionality, and throughout the 1960s and 1970s, it appeared on numerous advertising posters and billboards across Europe and the USA.
-        ed from this redesign is Helvetica. And what do you know? The font took the industry by storm. It struck the perfect balance between elegance and functionality, and throughout the 1960s and 1970s, it appeared on numerous advertising posters and billboards across Europe and the USA.
+        Portfolio Website under Construction.
       </div>
-      <button className='Roboto-font' >Blog Roboto</button>
     </body>
   )
 }
